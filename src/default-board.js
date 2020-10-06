@@ -1,10 +1,10 @@
 import { uuid } from './utils'
 
 export default {
-  name: 'PacePoint',
+  name: 'workshop',
   columns: [
     {
-      name: 'TODO',
+      name: 'todo',
       tasks: [
         {
           description: '',
@@ -20,14 +20,14 @@ export default {
         },
         {
           description: '',
-          name: 'and third',
+          name: 'and thrid',
           id: uuid(),
           userAssigned: null
         }
       ]
     },
     {
-      name: 'In Progress',
+      name: 'in-progress',
       tasks: [
         {
           description: '',
@@ -38,7 +38,7 @@ export default {
       ]
     },
     {
-      name: 'Done',
+      name: 'done',
       tasks: [
         {
           description: '',

@@ -1,4 +1,4 @@
-# trello test
+# watch-us-build-trello
 
 ## Project setup
 ```
