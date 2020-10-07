@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2830e41f-cae7-4c20-b984-bdbbec852736/deploy-status)](https://app.netlify.com/sites/tinker-life-11/deploys)
+
 # MyTrello
 
 ## Project setup
