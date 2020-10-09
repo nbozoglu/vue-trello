@@ -2,7 +2,6 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 import defaultBoard from './default-board'
 import { saveStatePlugin, uuid } from './utils'
-import { createClient } from 'contentful';
 
 Vue.use(Vuex)
 

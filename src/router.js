@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Board from './views/Board.vue'
 import Task from './views/Task.vue'
+import About from './views/About.vue'
 
 Vue.use(Router)
 
@@ -20,6 +21,11 @@ export default new Router({
           component: Task
         }
       ]
+    },
+    {
+      path: '/about',
+      name: 'about',
+      component: About
     }
   ]
 })

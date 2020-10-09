@@ -4,7 +4,6 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import AppButton from './components/AppButton'
-import { createClient } from 'contentful';
 
 Vue.component('AppButton', AppButton)
 
