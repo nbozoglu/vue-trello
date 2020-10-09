@@ -8,12 +8,6 @@ Vue.use(Vuex)
 
 const board = JSON.parse(localStorage.getItem('board')) || defaultBoard
 
-// TODO : get tokens on a different file thats gitignored
-export default createClient({
-  space: '',
-  accessToken: '',
-});
-
 export default new Vuex.Store({
   plugins: [saveStatePlugin],
   state: {
