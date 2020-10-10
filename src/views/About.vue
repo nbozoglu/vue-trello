@@ -1,15 +1,15 @@
 <template>
   <div class="Home">
     <div class="mb-3 mb-md-5 mx-auto text-center">
-      <h1 class="display-4">{{ title }}</h1>
+      <h1 class="display-4">my title</h1>
       <p class="lead">
-        {{ body }}
+        test
       </p>
     </div>
   </div>
 </template>
 
-<script>
+<!-- <script>
 import { mapActions, mapState } from 'vuex';
 
 import { GET_LANDING_PAGE } from '../store/action-types';
@@ -43,3 +43,4 @@ export default {
   },
 };
 </script>
+ -->
