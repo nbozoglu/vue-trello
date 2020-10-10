@@ -1,7 +1,7 @@
 import api from '../utils/api';
 import { documentToHtmlString } from "@contentful/rich-text-html-renderer";
 
-export const ABOUT = `5zh7jKkJVQfTjzispRd0N8`;
+export const ABOUT = `71y012W5RPPhlXprKAZPN8`;
 // This is the ID of the landing
 // page we've created earlier.
 
@@ -11,11 +11,11 @@ export class LandingPage {
   constructor({
     id = null,
     title = ``,
-    body = ``,
+    bodyLong = ``,
   } = {}) {
     this.id = id;
     this.title = title;
-    this.body = documentToHtmlString(body);
+    this.bodyLong = bodyLong;
   }
 }
 

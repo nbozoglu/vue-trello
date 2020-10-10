@@ -3,7 +3,7 @@
     <div class="mb-3 mb-md-5 mx-auto text-center">
       <h1 class="display-4">{{ title }}</h1>
       <p class="lead">
-        {{ body }}
+        {{ bodyLong }}
       </p>
     </div>
   </div>
@@ -23,7 +23,7 @@ export default {
   computed: {
     ...mapState(STORE_NAMESPACE, [
       'title',
-      'body'
+      'bodyLong'
     ]),
   },
   created() {
