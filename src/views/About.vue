@@ -3,7 +3,7 @@
     <div class="mb-3 mb-md-5 mx-auto text-center">
       <h1 class="display-4">{{ title }}</h1>
       <p class="lead">
-        {{ body }}
+        {{ body.content[0].content[0].value }}
       </p>
     </div>
   </div>
