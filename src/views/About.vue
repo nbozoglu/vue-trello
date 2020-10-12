@@ -5,6 +5,9 @@
       <p class="lead">
         {{ bodyLong }}
       </p>
+      <div>
+        <img :src="`${image.fields.file.url}`">
+      </div>
     </div>
   </div>
 </template>
@@ -23,7 +26,8 @@ export default {
   computed: {
     ...mapState(STORE_NAMESPACE, [
       'title',
-      'bodyLong'
+      'bodyLong',
+      'image'
     ]),
   },
   created() {

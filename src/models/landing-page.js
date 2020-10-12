@@ -12,10 +12,12 @@ export class LandingPage {
     id = null,
     title = ``,
     bodyLong = ``,
+    image = ``,
   } = {}) {
     this.id = id;
     this.title = title;
     this.bodyLong = bodyLong;
+    this.image = image;
   }
 }
 
