@@ -5,8 +5,8 @@
       <p class="lead">
         {{ bodyLong }}
       </p>
-      <div>
-        <img :src="`${image.fields.file.url}`">
+      <div v-if="image.fields">
+        <img :src="`${image.fields.file.url}?w=360&h=250&fit=thumb&fm=jpg&fl=progressive&q=70`">
       </div>
     </div>
   </div>
