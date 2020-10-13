@@ -1,5 +1,4 @@
 import { createClient } from 'contentful'
-console.log(process.env);
 
 export default createClient({
   space: process.env.VUE_APP_CONTENTFUL_SPACE,
