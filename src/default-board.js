@@ -1,10 +1,10 @@
 import { uuid } from './utils'
 
 export default {
-  name: 'PacePoint',
+  name: 'Trello Board',
   columns: [
     {
-      name: 'TO DO',
+      name: 'To Do',
       tasks: [
         {
           description: '',
